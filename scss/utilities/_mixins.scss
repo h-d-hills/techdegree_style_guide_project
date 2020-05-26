@@ -1,0 +1,13 @@
+
+//Mixins
+
+@mixin img-ctrl {
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+@mixin cntr-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

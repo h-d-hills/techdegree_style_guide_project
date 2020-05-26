@@ -1,0 +1,55 @@
+
+//Color Variables
+
+$primary-color: #58e1c1;
+$base-color: #777;
+$link-color: #51ddfc;
+$white: #fff;
+$gray: #ccc;
+
+//Med Que Variables
+
+$med: 768px;
+
+//Grid Color Map
+
+$grid-color: (
+    1: #927bc1,
+    2: #fd7856,
+    3: #deb2ee,
+    4: #7ee6fd,
+    5: #88d9a0,
+    6: #4da2bb,
+    7: #ec9fa3,
+    8: #fd9f85,
+    9: #e4757a,
+    10: #63cc82,
+    11: $link-color,
+    12: #80e8d1,
+);
+
+//Button Maps
+
+// $button-name: (
+//     1: '.default',
+//     2: '.error',
+//     3: '.info',
+//     4: '.success',
+//     5: '.warning',
+// );
+
+$button-name: (
+    'default': $link-color,
+    'error': #e4757a,
+    'info': #927bc1,
+    'success': #63cc82,
+    'warning': #fd7856,
+);
+
+$button-color: (
+    1: $link-color,
+    2: #e4757a,
+    3: #927bc1,
+    4: #63cc82,
+    5: #fd7856,
+);
